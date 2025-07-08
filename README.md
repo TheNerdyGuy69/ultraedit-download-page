@@ -20,7 +20,7 @@ This project replicates the layout and visual design of the official UltraEdit d
 
 ## 📷 Screenshot
 
-
+![Screenshot 2025-07-09 044802](https://github.com/user-attachments/assets/ad19871b-c87c-4f6e-81e7-d543862b3296)
 
 ---
 
