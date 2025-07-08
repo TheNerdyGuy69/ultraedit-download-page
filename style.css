@@ -1,0 +1,192 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .main {
+            height: 250px;
+            margin-left: 65px;
+            padding: 0;
+            cursor: pointer;
+
+        }
+
+        nav {
+
+            display: flex;
+            align-items: center;
+            height: 75px;
+            margin-top: 2px;
+            justify-content: center;
+
+
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            margin-left: 170px;
+
+
+        }
+
+        li {
+            padding: 15px 15px;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 450;
+            font-style: normal;
+            font-size: 15px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+
+        }
+
+        .lang {
+            height: 35px;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 65vh;
+            flex-direction: column;
+
+
+        }
+
+        .content {
+            margin-top: 15px;
+            font-size: 48px;
+            font-family: "Open Sans", sans-serif;
+            display: flex;
+            color: rgb(48, 47, 47);
+        }
+
+        .subcon {
+            margin: 15px;
+            font-size: 20px;
+            font-family: "Open Sans", sans-serif;
+            color: rgb(57, 56, 56);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        .review {
+            height: 30px;
+            width: 75px;
+            margin-left: 15px;
+            margin-top: 21px;
+            cursor: pointer;
+            display: block;
+
+        }
+
+        .btn {
+            background-color: #00b6d1;
+            border: 2px hidden;
+            border-radius: 5px;
+            padding: 15px 25px;
+            margin-top: 20px;
+            color: aliceblue;
+            font-weight: 750;
+            cursor: pointer;
+
+        }
+
+        .sublogo {
+            height: 100px;
+            margin-left: 150px;
+            margin-top: 0;
+        }
+
+        .gstart {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .gstart div {
+            display: flex;
+            justify-content: center;
+            /* background-color: aquamarine; */
+            height: 100px;
+            align-items: center;
+            font-family: "Open Sans", sans-serif;
+            font-size: 25px;
+        }
+
+        .gstart div span {
+            font-size: small;
+            margin-top: 10px;
+        }
+
+        .gmain {
+            display: flex;
+            justify-content: center;
+            /* border: 2px solid black; */
+            height: 80vw;
+            font-family: "Open Sans", sans-serif;
+
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: repeat(4, 160px);
+            /* border: 2px solid red; */
+            height: 75vw;
+            width: 100%;
+            margin: 25px 160px;
+            gap: 25px;
+        }
+
+        .item {
+            display: flex;
+            align-items: center;
+            /* border: 2px solid black; */
+            flex-direction: column;
+            background-color: rgb(249, 252, 251);
+
+        }
+
+        h3 {
+            margin-top: 30px;
+
+        }
+
+        .dbtn {
+            margin-top: 32px;
+
+        }
+
+        .buttons {
+            padding: 10px;
+            /* margin: 5px; */
+            color: azure;
+            font-weight: 750;
+            cursor: pointer;
+            /* text-decoration: non64 */
+            border: hidden;
+            border-radius: 5px;
+
+        }
+
+        .b1 {
+            background-color: #00b6d1;
+        }
+
+        .b2 {
+            background-color: #5cb85c;
+        }
+
+        .smol {
+            font-size: 10px;
+            margin-top: 5px;
+        }
+
+        .dbtn1 {
+            margin-top: 45px;
+        }
